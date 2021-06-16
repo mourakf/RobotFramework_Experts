@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.3 (Python 3.8.5 on linux)" generated="20210615 20:58:15.447" rpa="false" schemaversion="2">
+<suite id="s1" name="Loops" source="/home/coral/Área de Trabalho/Prime_experts_Jun2021/exercicios/3_loops/loops.robot">
+<test id="s1-t1" name="Imprimir nome de 5 paises">
+<kw name="logar no console uma lista de paises">
+<for flavor="IN">
+<var>${country}</var>
+<value>@{countries}</value>
+<iter>
+<var name="${country}">Germany</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${country}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:58:15.479" endtime="20210615 20:58:15.480"/>
+</kw>
+<status status="PASS" starttime="20210615 20:58:15.479" endtime="20210615 20:58:15.480"/>
+</iter>
+<iter>
+<var name="${country}">England</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${country}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:58:15.480" endtime="20210615 20:58:15.481"/>
+</kw>
+<status status="PASS" starttime="20210615 20:58:15.480" endtime="20210615 20:58:15.481"/>
+</iter>
+<iter>
+<var name="${country}">Canada</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${country}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:58:15.481" endtime="20210615 20:58:15.482"/>
+</kw>
+<status status="PASS" starttime="20210615 20:58:15.481" endtime="20210615 20:58:15.482"/>
+</iter>
+<iter>
+<var name="${country}">Deenmark</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${country}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:58:15.482" endtime="20210615 20:58:15.483"/>
+</kw>
+<status status="PASS" starttime="20210615 20:58:15.482" endtime="20210615 20:58:15.483"/>
+</iter>
+<iter>
+<var name="${country}">The Netherlands</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${country}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20210615 20:58:15.483" endtime="20210615 20:58:15.483"/>
+</kw>
+<status status="PASS" starttime="20210615 20:58:15.483" endtime="20210615 20:58:15.483"/>
+</iter>
+<status status="PASS" starttime="20210615 20:58:15.479" endtime="20210615 20:58:15.483"/>
+</for>
+<status status="PASS" starttime="20210615 20:58:15.478" endtime="20210615 20:58:15.484"/>
+</kw>
+<status status="PASS" starttime="20210615 20:58:15.477" endtime="20210615 20:58:15.484"/>
+</test>
+<doc>Exercicios de loops</doc>
+<status status="PASS" starttime="20210615 20:58:15.448" endtime="20210615 20:58:15.485"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Loops">Loops</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
